@@ -1,44 +1,92 @@
+HTML
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Villa Handmade Accesorios</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>VILLA HANDMADE | Accesorios con Alma</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
 
-    <header class="hero">
-        <h1>Villa Handmade</h1>
-        <p>Accesorios hechos a mano con amor y detalle</p>
-        <a class="whatsapp-btn" href="https://wa.me/57TU_NUMERO" target="_blank">💬 Escríbenos</a>
+    <header>
+        <div class="logo">
+            <h1>VILLA</h1>
+            <p class="tagline">HANDMADE</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#collares">COLLARES</a></li>
+                <li><a href="#pulseras">PULSERAS</a></li>
+                <li><a href="#coleccion" class="nav-cta">COMPRAR AHORA</a></li> 
+            </ul>
+        </nav>
     </header>
 
-    <section class="about">
-    <div class="about-container">
-        <h2>Sobre Nosotros</h2>
-        <p>
-            En <strong>Villa Accesorios</strong> creamos piezas artesanales únicas, elaboradas completamente a mano con dedicación y precisión. 
-            Cada accesorio nace de un proceso cuidadoso en el que combinamos técnicas tradicionales con un estilo moderno y juvenil, logrando 
-            diseños que resaltan por su elegancia y personalidad.
-        </p>
+    <section class="hero-section" id="inicio">
+        <div class="hero-content">
+            <h2>El detalle que te hace única.</h2> 
+            <p class="subheading">Piezas con alma, hechas a mano con amor y dedicación.</p>
+            <a href="#productos" class="cta-main-button">VER COLECCIÓN</a>
+        </div>
+        </section>
 
-        <p>
-            Nuestro propósito es ofrecer accesorios que transmitan autenticidad y belleza, acompañando a cada persona en sus momentos 
-            cotidianos y especiales. Creemos en el valor de lo hecho a mano, en la atención al detalle y en la magia de transformar materiales 
-            sencillos en piezas llenas de vida y significado.
-        </p>
+    <section class="top-selling" id="productos">
+        <h3>Nuestros más vendidos</h3>
+        <div class="product-list">
+            
+            <div class="product-item">
+                <img src="ruta/a/imagen_producto1.jpg" alt="Pulsera Binconádrono">
+                <h4>Bíncónádrono</h4>
+                <p class="price">$12.000 COP</p>
+                <a href="#" class="cta-product-button">Añadir al Carrito</a>
+            </div>
 
-        <p>
-            Cada creación refleja pasión, creatividad y el compromiso de entregar productos de calidad que te permitan expresar tu estilo 
-            de una manera única.
-        </p>
-    </div>
-</section>
+            <div class="product-item">
+                <img src="ruta/a/imagen_producto2.jpg" alt="Pulsera Nucta maréo">
+                <h4>Nucta maréo</h4>
+                <p class="price">$12.000 COP</p>
+                <a href="#" class="cta-product-button">Añadir al Carrito</a>
+            </div>
 
+            <div class="product-item">
+                <img src="ruta/a/imagen_producto3.jpg" alt="Pulsera Parejas hilo">
+                <h4>Parejas hilo</h4>
+                <p class="price">$3.000 COP</p>
+                <a href="#" class="cta-product-button">Añadir al Carrito</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="subscribe-section">
+        <div class="subscribe-text">
+            <h4>Suscríbete y recibe especiales</h4>
+            <p>Sé el primero en conocer nuestras novedades, ofertas exclusivas y promociones de temporada. ¡Únete a la comunidad!</p>
+        </div>
+        <form class="subscribe-form">
+            <input type="email" placeholder="Ingresa tu correo" required>
+            <button type="submit" class="cta-subscribe-button">SUSCRIBIRME</button>
+        </form>
+    </section>
+
+    <section class="about-us">
+        <h3>Conoce más</h3>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Nuestros accesorios son el resultado de la pasión por la artesanía. Cada pulsera, collar y denario está diseñado y fabricado con el mayor cuidado, utilizando materiales seleccionados para garantizar calidad y durabilidad. Llevamos contigo la esencia de un trabajo con alma.</p>
+                <a href="#" class="read-more-button">Nuestra Historia</a>
+            </div>
+            <div class="about-image">
+                <img src="ruta/a/imagen_modelo_accesorios.jpg" alt="Modelo usando accesorio">
+            </div>
+        </div>
+    </section>
+    
     <footer>
-        <p>© 2025 Villa Handmade Accesorios - Artesanía con alma</p>
-    </footer>
+        <p>&copy; 2025 VILLA HANDMADE. Todos los derechos reservados.</p>
+        </footer>
 
 </body>
 </html>
